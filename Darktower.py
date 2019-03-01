@@ -42,10 +42,9 @@ class Discordia(Place):
 class Death(Place):
     quips = [
         "You died. Sea monsters ate you",
-        "Your mom would be proud of you. If she were smarter.",
-        "Shut up and go to Valhalla",
-        "No luck for you today, little dermodemon",
-        "You are worse than your dad's jokes"
+        "Shut up and remember the face of your father",
+        "No luck for you today",
+        "Hail to Crimson King"
     ]
     def enter(self):
         print(Death.quips[randint(0, len(self.quips) - 1)])
