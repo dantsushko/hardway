@@ -21,7 +21,7 @@ class Engine(object):
 
 class Gilead(Place):
     print(dedent("""
-        Hello Roland, you are in Gilead right now.
+        Hello Dan, you are in Gilead right now.
         The only reason of you life is to get to the Dark Tower.
         To stop the world from shifting.
         Unfortunately you've lost your ammunition and you have only six bullets..
